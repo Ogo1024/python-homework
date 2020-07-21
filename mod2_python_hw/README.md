@@ -12,5 +12,3 @@
 
 2. PyRamen
 
-
-![Spicy Miso Ramen!](Images/spicy-pork-ramen-5.jpg)
