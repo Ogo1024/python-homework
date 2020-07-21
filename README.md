@@ -1,6 +1,6 @@
 # python-homework
 
-## Module 3 | Homework Assignment: Job Automation w/ Python
+## Module 2/3 | Homework Assignment: Job Automation w/ Python
 
 
 
