@@ -20,6 +20,6 @@
 
 **Completed Assignments**
 
-1. Whale Analysis
+1. Whale Portfolio Analysis
 
 
