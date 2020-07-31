@@ -18,4 +18,4 @@
 
 ## Histogram of 90% confidence interval for cumulative returns ending at 20 years
 
-![90% CI Histogram of 20-yr ending cum. returns](Images/30yr_portfolio_sim_image.png)
+![90% CI Histogram of 20-yr ending cumulative returns](Images/distribution_viz.png)
