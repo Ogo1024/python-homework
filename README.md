@@ -29,10 +29,19 @@
 
 1. Budget Analysis Analysis (Plaid API)
 
-1. Retirement Plan Analysis (Alpaca API)
+2. Retirement Plan Analysis (Alpaca API)
 
-1. Financial Report Summary
+3. Financial Report Summary
 
+
+
+## Module 8 | Project 1 Group Homework: Active vs. Passive
+
+---
+
+**Completed Assignments**
+
+1. Performance Analysis of Active vs. Passive Funds
 
 
 
