@@ -45,6 +45,15 @@
 
 
 
+## Module 1 | Time-Series Analysis
+
+---
+
+**Completed Assignments**
+
+1. Regression Analysis
+
+2. Time Series Analysis
 
 
 
