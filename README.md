@@ -45,7 +45,7 @@
 
 
 
-## Module 1 | Time-Series Analysis
+## Module 10 | Time-Series Analysis
 
 ---
 
