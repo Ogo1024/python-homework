@@ -45,6 +45,24 @@
 
 
 
+## Module 10 | Time-Series Analysis
+
+---
+
+**Completed Assignments**
+
+1. Regression Analysis
+
+2. Time Series Analysis
 
 
+## Module 11 | Machine Learning
+
+---
+
+**Completed Assignments**
+
+1. Credit Risk Ensemble
+
+2. Credit Risk Resampling
 
