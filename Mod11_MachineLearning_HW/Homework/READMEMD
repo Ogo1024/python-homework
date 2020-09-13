@@ -1,17 +1,16 @@
 
-Credit Risk Ensemble
-For the ensemble models, I was sure to scale my data before to achieve better results.
+##Credit Risk Ensemble
 
-Of the two models, the Easy Ensemble AdaBoost Classifier had the higher balanced accuracy score of 0.945.
-The Easy Ensemble Classifier also had the better recall, with a weighed average score of 0.787.
-Geometric mean was not reported in the classification report, but the Easy Ensemble Classifier had the higher F1 score of 0.97 (weighted average).
-For the balanced random forest model, the top three features were:
-Total Received Principal (0.0737)
-Total Received Interest (0.064)
-Total Payment Inv (0.0607)
+1. Best balance accuracy score: Ensemble AdaBoost Classifier achieved a balanced accuracy score of 0.925.
+2. Best recall score: Easy Ensemble Classifier achieved an average recall score of 0.94.
+3. Best geometric mean score: Easy Ensemble Classifier achieved an average geometric mean score of 0.93.
+4. For the balanced random forest model, the top three features were:
+    * Total Received Principal (0.0737)
+    * Total Received Interest (0.064)
+    * Total Payment Inv (0.0607)
 
-Credit Risk Resampling
+##Credit Risk Resampling
 
-Of the three aproaches, the oversampling models had the highest balanced accuracy scores, with naive oversampling the highest at 0.63.
-In terms of recall, again, oversampling had the highest scores - this time SMOTE the highest with 0.67.
-Oversampling was also highest for geometric mean, with naive oversampling the highest with a score of 0.63.
+1. Best balance accuracy score: SMOTE oversampling achieved a balanced accuracy score of 0.797.
+2. Best recall score: SMOTE oversampling achieved an average recall score of 0.86.
+3. Best geometric mean score: Naive random oversampling, SMOTE oversampling and Undersampling achieved the same average geometric mean score of 0.78, while Combined sampling produced an average geometric mean score of 0.61.
