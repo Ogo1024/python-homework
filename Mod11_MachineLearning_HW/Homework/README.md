@@ -1,5 +1,5 @@
 
-##Credit Risk Ensemble
+## Credit Risk Ensemble
 
 1. Best balance accuracy score: Ensemble AdaBoost Classifier achieved a balanced accuracy score of 0.925.
 2. Best recall score: Easy Ensemble Classifier achieved an average recall score of 0.94.
@@ -9,7 +9,7 @@
     * Total Received Interest (0.064)
     * Total Payment Inv (0.0607)
 
-##Credit Risk Resampling
+## Credit Risk Resampling
 
 1. Best balance accuracy score: SMOTE oversampling achieved a balanced accuracy score of 0.797.
 2. Best recall score: SMOTE oversampling achieved an average recall score of 0.86.
