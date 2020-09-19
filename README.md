@@ -1,4 +1,4 @@
-# python-homework
+# Python-Homework
 
 ## Module 2/3 | Homework Assignment: Job Automation w/ Python
 
@@ -65,4 +65,14 @@
 1. Credit Risk Ensemble
 
 2. Credit Risk Resampling
+
+
+## Module 12 | Natural Language Processing
+
+---
+
+**Completed Assignments**
+
+1. Crypto Sentiment
+
 
