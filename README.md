@@ -76,3 +76,12 @@
 1. Crypto Sentiment
 
 
+## Module 14 | Deep Learning
+
+---
+
+**Completed Assignments**
+
+1. LSTM Stock Predticor with Crypo Sentiment Data
+
+2. LSTM Stock Predticor with Closing Prices
