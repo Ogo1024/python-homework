@@ -6,16 +6,16 @@ Create ZBank environment
 
 Create Testnet blockchain
 
-![CreateGenisis.jpg](Images/CreateGenisis.jpg)
+![Create Genesis.jpg](Images/1-CreateGenisis.jpg)
 
 mkdir Zbank
 
 Create two new accounts using your neumonic phrase in myCrypto and choose the top two accounts.
 
-![init-run-node1.jpg](Images/InitRunNode1.jpg)
-![init-run-node2.jpg](Images/InitRunNode2.jpg)
-![custom-node-added.jpg](Images/AddCustomNode.jpg)
-![node1-address.jpg](Images/N1AddressConfirm.jpg)
-![input-send-data.jpg](Images/CompleteForm.jpg)
-![send-crypto.jpg](Images/SendTransaction.jpg)
-![confirm-transaction.jpg](Images/ConfirmTransaction.jpg)
+![init-run-node1.jpg](Images/2-InitRunNode1.jpg)
+![init-run-node2.jpg](Images/3-InitRunNode2.jpg)
+![custom-node-added.jpg](Images/5-AddCustomNode.jpg)
+![node1-address.jpg](Images/6-N1AddressConfirm.jpg)
+![input-send-data.jpg](Images/7-CompleteForm.jpg)
+![send-crypto.jpg](Images/8-SendTransaction.jpg)
+![confirm-transaction.jpg](Images/9-ConfirmTransaction.jpg)
