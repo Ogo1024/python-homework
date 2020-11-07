@@ -6,29 +6,37 @@ Instructions to develop a testnet blockchain for an organization utilizing Power
 
 ### Environment set up for Windows10 OS
 
-1. Create a new project directory for your new network.
-2. Activate Ethereum virual environment. Create a folder <Blockchain-ZBank) that contains all blockchain tools.
+Create a new project directory for your new network.
+Activate Ethereum virual environment. Create a folder <Blockchain-ZBank) that contains all blockchain tools.
 
 ### Create Nodes
+
 Add a empty directory for nodes
 mkdir node1 node2
 
 ### Get new accounts numbers from nodes to use as signers
-./geth account new --datadir node1
-./geth account new --datadir node2
+
+* ./geth account new --datadir node1
+* ./geth account new --datadir node2
 
 ### Running Puppeth to Create Genesis Block
+
 Run puppeth, name your network, and select the option to configure a new genesis block.
 ![Create Genesis.jpg](Images/1-CreateGenisis.jpg)
 
 ### Initialize Node1 and Mine
+
 Initialize the first node on the blockchain, run the command: ./geth init network1.json --datadir node1
+
 Start mining with node1
-./geth --datadir node1 --mine --minerthreads 1 --unlock "NODE1_address" --password node1/password.txt  --rpc --allow-insecure-unlock
+* ./geth --datadir node1 --mine --minerthreads 1 --unlock "NODE1_address"  --rpc --allow-insecure-unlock
 ![init-run-node1.jpg](Images/2-InitRunNode1.jpg)
 
 ### Initialize Node2 and Mine
-Initialize the second node on the blockchain, run the command: ./geth init network1.json --datadir node2
+
+Initialize the second node on the blockchain, run the command: 
+* ./geth init network1.json --datadir node2
+
 Copy complete enode address from node1
 
 ### Launch Node2
@@ -41,9 +49,15 @@ Start mining with node2
 ### Setting Network info on MyCrpto
 
 Click on "Add Custom Node", then add the custom network information that was set in the genesis.
-Ensure that I scroll down to choose Custom in the "Network" setting to reveal more options like Chain ID:
-The chain ID must match what I came up with earlier.
-The URL is pointing to the default RPC port on my local machine. Everyone should use this same URL: http://127.0.0.1:8545.Click on the "Save & Use Custom Node" button, to use the network; double-check that it is selected and is connected.
+
+Scroll down to choose Custom in the "Network" setting to reveal more options like Chain ID: 333
+
+Chain ID must match previously created number.
+
+The URL is pointing to the default RPC port on the local machine. 
+* Use this same URL: http://127.0.0.1:8545
+
+Click on the "Save & Use Custom Node" button, to use the network; double-check that it is selected and is connected.
 
 ![custom-node-added.jpg](Images/5-AddCustomNode.jpg)
 
