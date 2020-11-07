@@ -6,7 +6,7 @@ Create ZBank environment
 
 Create Testnet blockchain
 
-![create-genesis.jpg](Images/CreateGenisis.jpg)
+![CreateGenisis.jpg](Images/CreateGenisis.jpg)
 
 mkdir Zbank
 
