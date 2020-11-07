@@ -1,3 +1,5 @@
+
+![Crypto Bank](https://images.app.goo.gl/gDkirtEwxDzBuU479)
 Instructions to develop a testnet blockchain for an organization utilizing Power of Authority.
 
 Environment set up for Windows10 OS
