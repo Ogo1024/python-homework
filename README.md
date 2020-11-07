@@ -85,3 +85,23 @@
 1. LSTM Stock Predticor with Crypo Sentiment Data
 
 2. LSTM Stock Predticor with Closing Prices
+
+
+## Group Project 2 | 
+
+---
+
+**Completed Assignments**
+
+1. ML Algorithmic Trading Bot
+
+
+
+## Module 18 | Development Chain (PoA)
+
+---
+
+**Completed Assignments**
+
+1. ZBank Proof of Authority Blockchain Development
+
