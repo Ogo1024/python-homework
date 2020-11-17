@@ -13,8 +13,10 @@ In order to run, you must ensure that:
   * Bit
   * PHP
   * [Ganache](https://www.trufflesuite.com/ganache)
+  
 
 ### 1. Go to BIP39 mnemonic code converter [tool](https://iancoleman.io/bip39/) and generate mnemonic phrase. 
+
 
 ### 2. Download, install and use **Ganache** to launch private ETH blockchain through the pre-generated mnemonic phrase.
     * url: http://127.0.0.1:7545
@@ -22,6 +24,7 @@ In order to run, you must ensure that:
     * coin: ETH
     
     	!['ganache'](Images/Ganache_Mod19.png)
+	
 	
 ### 3. Clone `hd-wallet-derive` Github
 Clone `hd-wallet-derive` to local directory and install by entering the following commands in git-bash:
@@ -52,9 +55,9 @@ print(mnemonic)
 ```
 
 ###  5. Install wallet.py
+
 Within wallet directory, run `wallet.py` in Anaconda Prompt.
 - `python wallet.py`
-
 
 The [wallet.py](wallet.py) file supports the following coins:
     | Coin | Symbol | Global Variable |
@@ -65,10 +68,12 @@ The [wallet.py](wallet.py) file supports the following coins:
 
 
 ###  6. How to use functions to transfer coins?
+
 To transfer coins, use these functions in Anaconda Prompt,
 - `from wallet import *`
 - `create_tx(COIN_NAME,"ADD SENDER ACCOUNT","ADD RECIPIENT ACCOUNT",AMOUNT)`
 - `send_tx(COIN_NAME,"ADD SENDER ACCOUNT","ADD RECIPIENT ACCOUNT",AMOUNT)`
+
 
 ###  7. Expand the Wallet!
 
