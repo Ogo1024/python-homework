@@ -1,8 +1,8 @@
-# Blockchain-Python-Homework-Columbia-FinTech-Boot-Camp
+# Multi-Blockchain Wallet in Python
 
 ## Overview
 
-This project allows a user to derive testnet BitCoin and Ethereum crypto wallets from a cryptocurrency account, and send transactions between wallets via Python in a command line interface. 
+This supports the user's ability to derive testnet BitCoin and Ethereum crypto wallets from a cryptocurrency account and send transactions between wallets via Python in a command line interface. 
 
 ## Dependencies
 
