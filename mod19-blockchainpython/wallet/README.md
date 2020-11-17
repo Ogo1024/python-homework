@@ -15,15 +15,19 @@ In order to run, you must ensure that:
   * [Ganache](https://www.trufflesuite.com/ganache)
   
 
-### 1. Go to BIP39 mnemonic code converter [tool](https://iancoleman.io/bip39/) and generate mnemonic phrase. 
+### 1. Generate Mnemonic Code
+
+Go to BIP39 mnemonic code converter [tool](https://iancoleman.io/bip39/) and generate mnemonic phrase. 
 
 
-### 2. Download, install and use **Ganache** to launch private ETH blockchain through the pre-generated mnemonic phrase.
+### 2. Launch private ETH blockchain
+
+Download, install and use **Ganache** to launch private ETH blockchain through the pre-generated mnemonic phrase.
     * url: http://127.0.0.1:7545
     * network ID: 5777
     * coin: ETH
     
-    	!['ganache'](Images/Ganache_Mod19.png)
+!['ganache'](Images/Ganache_Mod19.png)
 	
 	
 ### 3. Clone `hd-wallet-derive` Github
@@ -35,7 +39,7 @@ Clone `hd-wallet-derive` to local directory and install by entering the followin
     php -d pcre.jit=0 composer.phar install
     ```
 	
-	!['hd-derive-wallet'](Images/hd-wallet-derive.png)
+!['hd-derive-wallet'](Images/hd-wallet-derive.png)
 	
     Use `pypl` to install python library `bit` and `web3` are installed thru:
     ```shell
