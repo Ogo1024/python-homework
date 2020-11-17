@@ -20,7 +20,7 @@ In order to run, you must ensure that:
     * url: http://127.0.0.1:7545
     * network ID: 5777
     * coin: ETH
-    !['ganache'](Images/ganache.png)
+    !['ganache'](Images/ganache_mod19.png)
 	
 3. Clone `hd-wallet-derive` Github
 Clone `hd-wallet-derive` to local directory and install by entering the following commands in git-bash:
