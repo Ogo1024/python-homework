@@ -2,7 +2,7 @@
 
 ## Overview
 
-This supports the user's ability to derive testnet BitCoin and Ethereum crypto wallets from a cryptocurrency account and send transactions between wallets via Python in a command line interface. 
+This supports a user's ability to derive testnet BitCoin and Ethereum crypto wallets from a cryptocurrency account and send transactions between wallets via Python in a command line interface. 
 
 ## Dependencies
 
@@ -60,23 +60,27 @@ Within wallet directory, run `wallet.py` in Anaconda Prompt.
 - `python wallet.py`
 
 The [wallet.py](wallet.py) file supports the following coins:
+
     | Coin | Symbol | Global Variable |
     | --- | --- | --- |
     | Ethereum | `eth` | `ETH` |
     | Bitcoin Testnet | `btc-test` | `BTCTEST` |
----
 
 
 ###  6. How to use functions to transfer coins?
 
 To transfer coins, use these functions in Anaconda Prompt,
 - `from wallet import *`
+
 - `create_tx(COIN_NAME,"ADD SENDER ACCOUNT","ADD RECIPIENT ACCOUNT",AMOUNT)`
+```send_tx(ETH, eth_pk_acct1, eth_pk_acct2.address, 1)```
+
 - `send_tx(COIN_NAME,"ADD SENDER ACCOUNT","ADD RECIPIENT ACCOUNT",AMOUNT)`
+```# send_tx(BTCTEST, btc_pk_acct1, btc_pk_acct2.address, 0.001)```
 
 
 ###  7. Expand the Wallet!
 
 To expand the account, settint number of accounts need in variable `numderive` in `wallet.py`.
 
-You can add coins into `coins` list in `wallet.py`
+Add different coins in `wallet.py` to expand access to various cryptos.
