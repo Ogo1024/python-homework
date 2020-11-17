@@ -14,16 +14,16 @@ In order to run, you must ensure that:
   * PHP
   * [Ganache](https://www.trufflesuite.com/ganache)
 
-1. Go to BIP39 mnemonic code converter [tool](https://iancoleman.io/bip39/) and generate mnemonic phrase. 
+### 1. Go to BIP39 mnemonic code converter [tool](https://iancoleman.io/bip39/) and generate mnemonic phrase. 
 
-2. Download, install and use **Ganache** to launch private ETH blockchain through the pre-generated mnemonic phrase.
+### 2. Download, install and use **Ganache** to launch private ETH blockchain through the pre-generated mnemonic phrase.
     * url: http://127.0.0.1:7545
     * network ID: 5777
     * coin: ETH
     
     	!['ganache'](Images/Ganache_Mod19.png)
 	
-3. Clone `hd-wallet-derive` Github
+### 3. Clone `hd-wallet-derive` Github
 Clone `hd-wallet-derive` to local directory and install by entering the following commands in git-bash:
     ```bash
     git clone https://github.com/dan-da/hd-wallet-derive
@@ -40,7 +40,7 @@ Clone `hd-wallet-derive` to local directory and install by entering the followin
     pip install web3
     ```
 
-## 3. Setting Mnemonic Phrase
+###  4. Setting Mnemonic Phrase
 Within wallet directory, create `.env file` (no extension type) to store your mnemonic phrase under an object named `MNEMONIC`.
 
 - Set this mnemonic as an environment variable, and include the one you generated as a fallback using:
@@ -51,7 +51,7 @@ mnemonic = os.getenv('MNEMONIC')
 print(mnemonic)
 ```
 
-## 4. Install wallet.py
+###  5. Install wallet.py
 Within wallet directory, run `wallet.py` in Anaconda Prompt.
 - `python wallet.py`
 
@@ -64,13 +64,13 @@ The [wallet.py](wallet.py) file supports the following coins:
 ---
 
 
-## 5. How to use functions to transfer coins?
+###  6. How to use functions to transfer coins?
 To transfer coins, use these functions in Anaconda Prompt,
 - `from wallet import *`
 - `create_tx(COIN_NAME,"ADD SENDER ACCOUNT","ADD RECIPIENT ACCOUNT",AMOUNT)`
 - `send_tx(COIN_NAME,"ADD SENDER ACCOUNT","ADD RECIPIENT ACCOUNT",AMOUNT)`
 
-## 6. Expand the Wallet!
+###  7. Expand the Wallet!
 
 To expand the account, settint number of accounts need in variable `numderive` in `wallet.py`.
 
