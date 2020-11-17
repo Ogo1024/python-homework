@@ -85,6 +85,6 @@ To transfer coins, use these functions in Anaconda Prompt,
 
 ###  7. Expand the Wallet!
 
-To expand the account, settint number of accounts need in variable `numderive` in `wallet.py`.
+To expand the account, update the number of accounts desired in variable `number` in `wallet.py`.
 
 Add different coins in `wallet.py` to expand access to various cryptos.
