@@ -42,9 +42,8 @@ Clone `hd-wallet-derive` to local directory and install by entering the followin
 	
 !['hd-derive-wallet'](Images/hd-wallet-derive.png)
 	
-    Use `pypl` to install python library `bit` and `web3` are installed thru:
-
-- open shell
+    Use `pypl` to install python library `bit` and `web3` are installed thru: open shell
+    
     ```
     pip install bit
     pip install web3
