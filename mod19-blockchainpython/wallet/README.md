@@ -20,7 +20,8 @@ In order to run, you must ensure that:
     * url: http://127.0.0.1:7545
     * network ID: 5777
     * coin: ETH
-    !['ganache'](Images/ganache_mod19.png)
+    
+    	!['ganache'](Images/Ganache_Mod19.png)
 	
 3. Clone `hd-wallet-derive` Github
 Clone `hd-wallet-derive` to local directory and install by entering the following commands in git-bash:
@@ -54,12 +55,14 @@ print(mnemonic)
 Within wallet directory, run `wallet.py` in Anaconda Prompt.
 - `python wallet.py`
 
+
 The [wallet.py](wallet.py) file supports the following coins:
     | Coin | Symbol | Global Variable |
     | --- | --- | --- |
     | Ethereum | `eth` | `ETH` |
     | Bitcoin Testnet | `btc-test` | `BTCTEST` |
 ---
+
 
 ## 5. How to use functions to transfer coins?
 To transfer coins, use these functions in Anaconda Prompt,
