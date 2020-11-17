@@ -43,9 +43,12 @@ Clone `hd-wallet-derive` to local directory and install by entering the followin
 !['hd-derive-wallet'](Images/hd-wallet-derive.png)
 	
     Use `pypl` to install python library `bit` and `web3` are installed thru:
-    ```shell
+
+- open shell
+    ```
     pip install bit
     pip install web3
+    
     ```
 
 ###  4. Setting Mnemonic Phrase
@@ -84,7 +87,7 @@ To transfer coins, use these functions in Anaconda Prompt,
 ```# send_tx(BTCTEST, btc_pk_acct1, btc_pk_acct2.address, 0.001)```
 
 
-###  7. Expand the Wallet!
+###  7. Increase Wallet Functionality
 
 To expand the account, update the number of accounts desired in variable `number` in `wallet.py`.
 
