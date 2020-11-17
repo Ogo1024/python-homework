@@ -32,12 +32,12 @@ Download, install and use **Ganache** to launch private ETH blockchain through t
 	
 ### 3. Clone `hd-wallet-derive` Github
 Clone `hd-wallet-derive` to local directory and install by entering the following commands in git-bash:
-    ```bash
-    - git clone https://github.com/dan-da/hd-wallet-derive
-    - cd hd-wallet-derive
-    - php -r "readfile('https://getcomposer.org/installer');" | php
-    - php -d pcre.jit=0 composer.phar install
-    ```
+
+    ```bash```
+    ```git clone https://github.com/dan-da/hd-wallet-derive```
+    ```cd hd-wallet-derive```
+    ```php -r "readfile('https://getcomposer.org/installer');" | php```
+    ```php -d pcre.jit=0 composer.phar install```
 	
 !['hd-derive-wallet'](Images/hd-wallet-derive.png)
 	
