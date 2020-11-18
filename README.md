@@ -105,3 +105,25 @@
 
 1. ZBank Proof of Authority Blockchain Development
 
+
+
+## Module 19 | Blockchain Python
+
+---
+
+**Completed Assignments**
+
+1. Multi-Blockchain Wallet via Python
+
+
+
+## Module 20 | Financial Automation via Solidity
+---
+
+**Completed Assignments**
+
+1. AssociateProfitSplitter smart contract
+
+2. TieredProfitSplitter smart contract
+
+3. DeferredEquityPlan smart contract
