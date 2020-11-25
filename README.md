@@ -127,3 +127,11 @@
 2. TieredProfitSplitter smart contract
 
 3. DeferredEquityPlan smart contract
+
+
+## Module 21 | Token Crowdsale via Solidity
+---
+
+**Completed Assignments**
+
+1. PupperCoinCrowdSale smart contract
