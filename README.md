@@ -135,3 +135,12 @@
 **Completed Assignments**
 
 1. PupperCoinCrowdSale smart contract
+
+
+## Group Project 3 | 
+
+---
+
+**Completed Assignments**
+
+1. Decentralized Autonomous Investment Club
